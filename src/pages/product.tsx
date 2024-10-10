@@ -3,16 +3,14 @@ import Footer from '@/component/footer';
 
 const ProductPage: React.FC = () => {
   const products = [
-    { id: 1, title: 'Nasi Padang', description: 'Delicious Padang rice served with various side dishes.', image: '/nasi_padang.jpg' },
-    { id: 2, title: 'Rendang', description: 'Spicy beef stew, slow-cooked to perfection.', image: '/rendang.jpg' },
-    { id: 3, title: 'Sate Padang', description: 'Grilled skewered meat served with spicy sauce.', image: '/images/sate_padang.jpg' },
-    { id: 4, title: 'Gulai Tambusu', description: 'Traditional Padang curry made with egg and spices.', image: '/images/gulai_tambusu.jpg' },
-    { id: 5, title: 'Ikan Bakar', description: 'Grilled fish marinated with Padang spices.', image: '/images/ikan_bakar.jpg' },
-    { id: 6, title: 'Ayam Pop', description: 'Fried chicken served with spicy sauce and rice.', image: '/images/ayam_pop.jpg' },
-    { id: 7, title: 'Pisang Salai', description: 'Smoked banana served as a unique dessert.', image: '/images/pisang_salai.jpg' },
-    { id: 8, title: 'Keripik Balado', description: 'Spicy crispy chips made from cassava.', image: '/images/keripik_balado.jpg' },
-    { id: 9, title: 'Cendol', description: 'Traditional dessert made with rice flour, coconut milk, and palm sugar.', image: '/images/cendol.jpg' },
-    // Tambahkan produk lain sesuai kebutuhan
+    { id: 1, title: 'Nasi Padang', description: 'Nasi putih yang disajikan dengan berbagai lauk khas Padang.', image: '/images.jpeg' },
+    { id: 2, title: 'Rendang', description: 'Daging sapi yang dimasak dengan rempah khas, memberikan rasa yang kaya dan lezat.', image: '/Rendang4k.jpg' },
+    { id: 3, title: 'Sate Padang', description: 'Sate daging yang disajikan dengan saus kacang kental dan pedas.', image: '/Sate.jpg' },
+    { id: 4, title: 'Gulai Ayam', description: 'Ayam yang dimasak dalam kuah santan kental yang kaya rempah.', image: '/images/gulai_tambusu.jpg' },
+    { id: 5, title: 'Ikan Bakar', description: 'Ikan yang dibakar dengan bumbu khas Padang, disajikan dengan sambal.', image: '/ikan.jpeg' },
+    { id: 6, title: 'Ayam Pop', description: 'Ayam goreng yang disajikan dengan sambal dan nasi.', image: '/ayamapop.jpg' },
+    { id: 7, title: 'Kerupuk Udang', description: 'Kerupuk renyah yang terbuat dari udang, cocok untuk teman makan.', image: '/Kudang.jpg' },
+    { id: 8, title: 'Keripik Balado', description: 'Keripik pedas yang terbuat dari singkong, renyah dan gurih.', image: '/Kpedas.jpg' },
   ];
   
 

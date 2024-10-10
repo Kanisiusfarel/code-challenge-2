@@ -38,10 +38,10 @@ const HistoryPage: React.FC = () => {
         <div className="flex flex-col md:flex-row mt-12 items-center">
           <div className="w-full md:w-1/2">
             <Image
-              src="/images.jpeg" // Path ke gambar tambahan
+              src="/Padang.jpg" // Path ke gambar tambahan
               alt="Nasi Padang"
-              width={400}
-              height={200}
+              width={200}
+              height={100}
               className="rounded-lg w-full h-auto" // Gambar responsif
             />
           </div>
