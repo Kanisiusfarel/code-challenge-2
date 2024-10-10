@@ -10,7 +10,7 @@ const HistoryPage: React.FC = () => {
       <main className="p-4 max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-center">Sejarah Warung Nasi Padang Trio Sakato</h1>
         
-        {/* Kontainer gambar dan teks dengan responsif */}
+        
         <div className="flex flex-col md:flex-row mt-8 items-center">
           <div className="w-full md:w-1/2">
             <Image
