@@ -12,8 +12,8 @@ const Testimonials: React.FC = () => {
       <h2 className="text-2xl font-bold">Testimoni Pelanggan</h2>
       <div className="mt-4 space-y-4">
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="border p-4 rounded-lg">
-            <p className="italic">&quot;{testimonial.message}&quot;</p> {/* Ganti tanda kutip dengan &quot; */}
+          <div key={testimonial.id} className="border p-4 bg-gray-500 rounded-lg">
+            <p className="italic text-white">&quot;{testimonial.message}&quot;</p> 
             <p className="font-bold text-right">- {testimonial.name}</p>
           </div>
         ))}
