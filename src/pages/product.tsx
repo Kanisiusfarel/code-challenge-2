@@ -25,9 +25,9 @@ const ProductPage: React.FC = () => {
               <Image
                 src={product.image}
                 alt={product.title}
-                width={96} // Lebar gambar, disesuaikan
-                height={96} // Tinggi gambar, disesuaikan
-                className="rounded object-cover" // Gaya gambar
+                width={96} 
+                height={96} 
+                className="rounded object-cover" 
               />
               <div>
                 <h2 className="text-xl font-bold">{product.title}</h2>
