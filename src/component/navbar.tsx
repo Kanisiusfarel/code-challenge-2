@@ -2,6 +2,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import {Poppins} from "next/font/google";
+
+const PoppinsFont = Poppins({
+  subsets: ["latin"],
+  weight: ['400',],
+});
+
 
 const Navbar: React.FC = () => {
   return (
@@ -16,6 +23,7 @@ const Navbar: React.FC = () => {
             className="mr-2 rounded-full shadow-md" 
           />
         </Link>
+        <div className={PoppinsFont.className}>
         <ul className="flex font-extrabold space-x-4">
           <li>
             <Link href="/home" className="hover:text-yellow-300 transition-transform duration-300 transform hover:scale-105">
@@ -38,6 +46,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
         </ul>
+        </div>
       </div>
     </nav>
   );
