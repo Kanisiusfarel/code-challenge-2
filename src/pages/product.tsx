@@ -1,5 +1,6 @@
 import Navbar from '@/component/navbar';
 import Footer from '@/component/footer';
+import Image from 'next/image'; // Import Image dari next/image
 
 const ProductPage: React.FC = () => {
   const products = [
@@ -12,7 +13,6 @@ const ProductPage: React.FC = () => {
     { id: 7, title: 'Kerupuk Udang', description: 'Kerupuk renyah yang terbuat dari udang, cocok untuk teman makan.', image: '/Kudang.jpg' },
     { id: 8, title: 'Keripik Balado', description: 'Keripik pedas yang terbuat dari singkong, renyah dan gurih.', image: '/Kpedas.jpg' },
   ];
-  
 
   return (
     <div>
@@ -22,10 +22,12 @@ const ProductPage: React.FC = () => {
         <div className="mt-4 space-y-4">
           {products.map(product => (
             <div key={product.id} className="border p-4 rounded-lg flex items-center space-x-4">
-              <img
+              <Image
                 src={product.image}
                 alt={product.title}
-                className="w-24 h-24 object-cover rounded" // Atur ukuran dan styling
+                width={96} // Lebar gambar, disesuaikan
+                height={96} // Tinggi gambar, disesuaikan
+                className="rounded object-cover" // Gaya gambar
               />
               <div>
                 <h2 className="text-xl font-bold">{product.title}</h2>

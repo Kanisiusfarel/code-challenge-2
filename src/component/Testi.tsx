@@ -13,7 +13,7 @@ const Testimonials: React.FC = () => {
       <div className="mt-4 space-y-4">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="border p-4 rounded-lg">
-            <p className="italic">"{testimonial.message}"</p>
+            <p className="italic">&quot;{testimonial.message}&quot;</p> {/* Ganti tanda kutip dengan &quot; */}
             <p className="font-bold text-right">- {testimonial.name}</p>
           </div>
         ))}
