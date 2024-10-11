@@ -8,17 +8,41 @@ const HistoryPage: React.FC = () => {
     <div>
       <Navbar />
       <main className="p-4 max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-center">Sejarah Warung Nasi Padang Trio Sakato</h1>
-        
-        
+        <h1 className="text-4xl font-bold text-center">Pendiri dan CEO</h1>
+
+        {/* Section Founder and CEO */}
         <div className="flex flex-col md:flex-row mt-8 items-center">
           <div className="w-full md:w-1/2">
             <Image
-              src="/history.jpeg" // Path ke gambar utama
+              src="/Ceo.avif"
+              alt="Pendiri"
+              width={400}
+              height={400}
+              className="rounded-full mx-auto"
+            />
+          </div>
+          <div className="mt-6 md:mt-0 md:ml-8 w-full md:w-1/2">
+            <h3 className="text-2xl font-semibold text-center md:text-left">Andi Suhendra</h3>
+            <p className="mt-4 text-justify">
+              Andi Suhendra adalah pendiri dan CEO dari Warung Nasi Padang Trio Sakato. Dengan latar belakang kuliner yang kuat dan kecintaannya terhadap masakan tradisional Minangkabau, Andi memulai perjalanan bisnisnya dari kios kecil dan membangun Trio Sakato menjadi salah satu tempat makan yang paling dikenal di kota. Di bawah kepemimpinannya, Trio Sakato terus berkembang, tetap mempertahankan cita rasa autentik dan pelayanan berkualitas.
+            </p>
+            <p className="mt-4 text-justify">
+              Dengan dedikasi yang tinggi, Andi tidak hanya fokus pada pertumbuhan bisnis, tetapi juga pada pelestarian budaya kuliner Padang. Filosofi kepemimpinannya adalah menggabungkan inovasi dengan warisan tradisi untuk memberikan pengalaman makan yang luar biasa kepada semua pelanggan.
+            </p>
+          </div>
+        </div>
+
+        <h1 className="text-4xl font-bold text-center mt-16">Sejarah Warung Nasi Padang Trio Sakato</h1>
+        
+        {/* Section Sejarah */}
+        <div className="flex flex-col md:flex-row mt-8 items-center">
+          <div className="w-full md:w-1/2">
+            <Image
+              src="/history.jpeg"
               alt="Sejarah Warung Nasi Padang Trio Sakato"
               width={400}
               height={200}
-              className="rounded-lg w-full h-auto" // Gambar responsif
+              className="rounded-lg w-full h-auto" 
             />
           </div>
           <div className="mt-6 md:mt-0 md:ml-8 w-full md:w-1/2">
@@ -34,15 +58,15 @@ const HistoryPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Gambar tambahan dengan teks yang juga responsif */}
+        {/* Section Nasi Padang */}
         <div className="flex flex-col md:flex-row mt-12 items-center">
           <div className="w-full md:w-1/2">
             <Image
-              src="/Padang.jpg" // Path ke gambar tambahan
+              src="/Pdng.jpg" 
               alt="Nasi Padang"
-              width={200}
-              height={100}
-              className="rounded-lg w-full h-auto" // Gambar responsif
+              width={600}
+              height={400}
+              className="rounded-lg w-full h-auto" 
             />
           </div>
           <div className="mt-6 md:mt-0 md:ml-8 w-full md:w-1/2">
@@ -53,6 +77,7 @@ const HistoryPage: React.FC = () => {
           </div>
         </div>
 
+        {/* Section Budaya Perusahaan */}
         <h2 className="text-3xl font-semibold mt-16 text-center">Budaya Perusahaan Kami</h2>
         <p className="mt-4 text-center">
           Di Warung Nasi Padang Trio Sakato, kami percaya bahwa budaya perusahaan yang positif adalah kunci untuk menciptakan lingkungan kerja yang harmonis dan produktif. Kami mengedepankan nilai-nilai berikut dalam setiap aspek operasional kami:
