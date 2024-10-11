@@ -36,8 +36,14 @@ const TeamsPage: React.FC = () => {
   }, []);
 
   if (loading) {
-    return <p className="text-center mt-8">Loading...</p>;
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <img src="/Lo-unscreen.gif" alt="Loading..." className="w-94 h-94" />
+      </div>
+    );
   }
+  
+  
 
   return (
     <div className="bg-gray-50 min-h-screen">

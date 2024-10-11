@@ -18,7 +18,7 @@ const ContactPage: React.FC = () => {
 
             <div className="mb-8 space-y-2">
               <p className="text-lg text-gray-700">
-                <span className="font-semibold">Email:</span> info@warungnasipadangTrioSakato.com
+                <span className="font-semibold">Email:</span>@warungnasipadangTrioSakato
               </p>
               <p className="text-lg text-gray-700">
                 <span className="font-semibold">Telepon:</span> (021) 13245768
